@@ -4,6 +4,8 @@ import { Head, Link, usePage } from '@inertiajs/react';
 export default function Welcome() {
     const { auth } = usePage<SharedData>().props;
 
+    //THIS IS TO TEST
+
     return (
         <>
             <Head title="Bienvenido a MMA World">
